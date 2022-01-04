@@ -1,3 +1,4 @@
+```c
 struct page {
 	unsigned long flags;		/* 标志，flags成员是页面的标志位集合，标志位在内存管理非常重要 */
 	/*
@@ -145,3 +146,4 @@ struct page {
 	int _last_cpupid;
 #endif
 } _struct_page_alignment;
+```
